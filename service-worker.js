@@ -1,5 +1,5 @@
 const MODEL = "gpt-oss-120b";
-const API_KEY = "csk-fpthxwpj94yw3d239jjprk4ehtxxy6m2nvcvmcn9xwxcr968";
+const API_KEY = "csk-9ntynen6djwc8w5h49dxtmdn4nejk58vndhynkhfjffpwtwp";
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type !== "ASK_CEREBRAS") {
